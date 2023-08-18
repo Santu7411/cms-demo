@@ -46,7 +46,6 @@ const References: CollectionConfig = {
       name: 'content', // required
       type: 'blocks', // required
       label: '内容',
-      interfaceName: 'referenceContent',
       blocks: [
         ResourceText,
         ResourceImage,

@@ -3,9 +3,9 @@ import type { CollectionConfig } from 'payload/types';
 
 const Media: CollectionConfig = {
   slug: 'media',
-  //upload: {
-    //staticDir: path.resolve(__dirname, '../../media'),
-  //},
+  upload: {
+    staticDir: path.resolve(__dirname, '../../media'),
+  },
   fields: [
     {
       name: 'alt',
